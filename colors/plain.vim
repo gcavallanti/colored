@@ -193,9 +193,9 @@ call s:HL('User0', 'gray24', 'gray04', 'none')
 
 " Gutter {{{
 call s:HL('CursorLineNr', 'hcontrast', 'vlcontrast', 'none')
-call s:HL('LineNr', 'lcontrast', 'none', 'none')
-call s:HL('FoldColumn', 'hcontrast', 'none', 'none')
-call s:HL('SignColumn', 'none', 'none', 'none')
+call s:HL('LineNr', 'lcontrast', 'vlcontrast', 'none')
+call s:HL('FoldColumn', 'hcontrast', 'vlcontrast', 'none')
+call s:HL('SignColumn', 'none', 'vlcontrast', 'none')
 " }}}
 
 call s:HL('Pmenu', 'gray00', 'gray18', 'none')
@@ -279,9 +279,9 @@ call s:HL('DiffText', 'gray23', 'nblue', 'none')
 " }}}
 
 " GitGutter {{{
-call s:HL('GitGutterDelete', 'nred', 'none', 'none')
-call s:HL('GitGutterAdd', 'ngreen', 'none', 'none')
-call s:HL('GitGutterChange', 'nblue', 'none', 'none')
+call s:HL('GitGutterDelete', 'nred', 'vlcontrast', 'none')
+call s:HL('GitGutterAdd', 'ngreen', 'vlcontrast', 'none')
+call s:HL('GitGutterChange', 'nblue', 'vlcontrast', 'none')
 call s:HL('GitGutterChangeDelete', 'gray23', 'nblue', 'none')
 call s:HL('GitGutterDeleteLine', 'nred', 'bred', 'none')
 call s:HL('GitGutterAddLine', 'ngreen', 'bgreen', 'none')
@@ -391,10 +391,10 @@ call s:HL('SyntasticWarning', 'byellow', 'none', 'none')
 call s:HL('SyntasticStyleError', 'bred', 'none', 'none')
 call s:HL('SyntasticStyleWarning', 'byellow', 'none', 'none')
 
-call s:HL('SyntasticErrorSign', 'bred', 'none', 'none')
-call s:HL('SyntasticWarningSign', 'byellow', 'none', 'none')
-call s:HL('SyntasticStyleErrorSign', 'bred', 'none', 'none')
-call s:HL('SyntasticStyleWarningSign', 'byellow', 'none', 'none')
+call s:HL('SyntasticErrorSign', 'bred', 'vlcontrast', 'none')
+call s:HL('SyntasticWarningSign', 'byellow', 'vlcontrast', 'none')
+call s:HL('SyntasticStyleErrorSign', 'bred', 'vlcontrast', 'none')
+call s:HL('SyntasticStyleWarningSign', 'byellow', 'vlcontrast', 'none')
 
 call s:HL('SyntasticErrorLine', 'nred', 'none', 'none')
 call s:HL('SyntasticWarningLine', 'nyellow', 'none', 'none')
