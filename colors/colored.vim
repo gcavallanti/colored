@@ -187,9 +187,9 @@ call s:HL('Tag', 'none', 'none', 'underline')
 call s:HL('WildMenu', 'gray25', 'gray07', 'none')
 
 call s:HL('VertSplit', 'vlcontrast', 'none', 'none')
-call s:HL('StatusLine', 'lcontrast', 'vhcontrast', 'none')
-call s:HL('StatusLineNC', 'vhcontrast', 'lcontrast', 'none')
-call s:HL('User1', 'lcontrast', 'hcontrast', 'none')
+call s:HL('StatusLine', 'vhcontrast', 'lcontrast', 'none')
+call s:HL('StatusLineNC', 'vhcontrast', 'hcontrast', 'none')
+call s:HL('User1', 'gray25', 'ncyan', 'none')
 call s:HL('User2', 'lcontrast', 'vhcontrast', 'none')
 call s:HL('User3', 'lcontrast', 'vhcontrast', 'none' )
 call s:HL('User4', 'gray04', 'gray21', 'none')
@@ -201,7 +201,7 @@ call s:HL('User9', 'gray04', 'gray21', 'none')
 call s:HL('User0', 'gray25', 'gray05', 'none')
 
 " Gutter {{{
-call s:HL('CursorLineNr', 'ngreen', s:gutter, 'none')
+call s:HL('CursorLineNr', 'ncyan', s:gutter, 'none')
 call s:HL('LineNr', 'vlcontrast', s:gutter, 'none')
 call s:HL('FoldColumn', 'lcontrast', s:gutter, 'none')
 call s:HL('SignColumn', 'lcontrast', s:gutter, 'none')
@@ -237,7 +237,7 @@ call s:HL('Repeat', 'vhcontrast', 'none', 'bold')
 call s:HL('Identifier', 'none', 'none', 'none')
 call s:HL('Function', 'none', 'none', 'none')
 
-call s:HL('PreProc', 'hcontrast', 'none', 'none')
+call s:HL('PreProc', 'vhcontrast', 'none', 'none')
 call s:HL('Macro', 'hcontrast', 'none', 'none')
 call s:HL('Define', 'hcontrast', 'none', 'none')
 call s:HL('PreCondit', 'hcontrast', 'none', 'none')
@@ -253,10 +253,10 @@ call s:HL('String', 'hcontrast', 'none', 'none')
 
 call s:HL('SpecialChar', 'vhcontrast', 'none', 'none')
 
-call s:HL('Type', 'vhcontrast', 'none', 'bold')
-call s:HL('Typedef', 'vhcontrast', 'none', 'bold')
-call s:HL('StorageClass', 'vhcontrast', 'none', 'bold')
-call s:HL('Structure', 'vhcontrast', 'none', 'bold')
+call s:HL('Type', 'vhcontrast', 'none', 'underline')
+call s:HL('Typedef', 'vhcontrast', 'none', 'underline')
+call s:HL('StorageClass', 'vhcontrast', 'none', 'underline')
+call s:HL('Structure', 'vhcontrast', 'none', 'underline')
 
 call s:HL('Exception', 'nred', 'none', 'bold')
 
@@ -608,7 +608,7 @@ call s:HL('markdownCodeBlock', 'hcontrast', 'none', 'none')
 " }}}
 
 " Python {{{
-call s:HL('pythonBuiltin', 'hcontrast', 'none', 'none')
+call s:HL('pythonBuiltin', 'vhcontrast', 'none', 'none')
 call s:HL('pythonBuiltinObj', 'hcontrast')
 call s:HL('pythonBuiltinFunc', 'hcontrast')
 call s:HL('pythonFunction', 'none', 'none', 'none')
